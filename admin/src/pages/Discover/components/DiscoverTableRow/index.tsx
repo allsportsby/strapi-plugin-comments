@@ -70,7 +70,7 @@ const DiscoverTableRow = ({
   };
 
   const renderEntryUrl = (entry) =>
-    entry ? `/content-manager/collectionType/${entry.uid}/${entry.id}` : null;
+    entry ? `/content-manager/collection-types/${entry.uid}/${entry.id}` : null;
 
   const renderDetailsUrl = (entry) => getUrl(`discover/${entry.id}`);
 
